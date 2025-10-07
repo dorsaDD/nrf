@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+build-*/
+*.map
+*.bin
+*.hex
+*.elf
+
+# West & NCS (these belong to your workspace, not the app repo)
+.west/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
